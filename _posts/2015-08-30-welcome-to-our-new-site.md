@@ -13,4 +13,4 @@ You can also find on:
 
 * [Tumblr][https://www.tumblr.com/search/AnemoiAcademicJournal]
 
-* [Facebook][https://www.tumblr.com/search/AnemoiAcademicJournal]
+* [Facebook][https://www.facebook.com/pages/Anemoi-Academic-Journal/415808828509556?fref=ts]
