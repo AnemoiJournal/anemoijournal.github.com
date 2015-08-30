@@ -9,8 +9,8 @@ We're still moving in, so stay tuned for our approaching call for papers!
 
 You can also find on:
 
-* Twitter at Anemoi_Journal
+* [Twitter][https://twitter.com/anemoi_journal]
 
-* Tumblr at AnemoiAcademicJournal
+* [Tumblr][https://www.tumblr.com/search/AnemoiAcademicJournal]
 
-* Facebook at Anemoi.Journal
+* [Facebook][https://www.tumblr.com/search/AnemoiAcademicJournal]
