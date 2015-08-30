@@ -8,6 +8,6 @@ description: Call for papers coming papers
 We're still moving in, so stay tuned for our approaching call for papers!
 
 You can also find on:
-- Twitter at Anemoi_Journal
-- Tumblr at AnemoiAcademicJournal
-- Facebook at Anemoi.Journal
+* Twitter at Anemoi_Journal
+* Tumblr at AnemoiAcademicJournal
+* Facebook at Anemoi.Journal
