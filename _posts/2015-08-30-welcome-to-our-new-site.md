@@ -1,20 +1,11 @@
 ---
 layout: post
-title: "Welcome to Our New Site!"
-date: 2015-08-30 15:32:45
+title: "Call For Papers"
+date: 2015-12-28 12:42:30
 permalink: new-site
-description: Call for papers coming soon!
+description: Submission info for the 2016 edition of the Anemoi.
 ---
-We're still moving in, so stay tuned for our approaching call for papers!
+We are accepting submissions for the 4th edition of the Anemoi until January 31st!
+Please see the [Submissions][sub] page for submission requirements and direct all questions to anemoijournal@gmail.com.
 
-You can also find on:
-
-* [Twitter][twitter]
-
-* [Tumblr][tumb]
-
-* [Facebook][face]
-
-[twitter]: https://twitter.com/anemoi_journal
-[tumb]: https://www.tumblr.com/search/AnemoiAcademicJournal
-[face]: https://www.facebook.com/pages/Anemoi-Academic-Journal/415808828509556?fref=ts
+[sub]: http://anemoijournal.github.io/submissions/
