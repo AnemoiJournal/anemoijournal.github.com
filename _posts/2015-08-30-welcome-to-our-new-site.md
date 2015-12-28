@@ -2,7 +2,7 @@
 layout: post
 title: "Call For Papers"
 date: 2015-12-28 12:42:30
-permalink: new-site
+permalink: cfp
 description: Submission info for the 2016 edition of the Anemoi.
 ---
 We are accepting submissions for the 4th edition of the Anemoi until January 31st!
