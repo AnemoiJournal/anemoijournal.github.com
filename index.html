@@ -1,26 +1,115 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        
-        <h4>{{ post.description }}</h4>
-
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Anemoi: Journal of Pre-Modern Studies</title>
+		<link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/custom.css"
+	</head>
+	<body>
+		<!-- Navbar -->
+		<div class="container-fluid" id="header">
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="nav nav-tabs">
+						<li role="presentation" class="active"><a href="index.html">Home</a></li>
+						<li role="presentation"><a href="about.html">About Us</a></li>
+						<li role="presentation"><a href="submission.html">Submit Now!</a></li>
+						<li role="presentation"><a href="issues.html">Past Issues</a></li>
+						<li role="presentation"><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<!-- Title -->
+			<div class="row">
+				<div class="col-sm-12 well" id="title">
+					<h1>Anemoi: Journal of Pre-Modern Studies</h1>
+				</div>
+			</div>
+			<!-- Front Info -->
+			<div class="row">
+				<div class="col-sm-12 well well-lg cinzel">
+					<h2>A Scholarly Tradition</h2>
+					<p class="lead serif"><em>Anemoi</em>, a scholarly journal produced by students under the sponsorship of Dr. David Rohrbacher at New College of Florida in Sarasota, will release its next issue in May 2017. <em>Anemoi</em> is dedicated to publishing original critical and analytical papers from all disciplines within Classics, Medieval and Renaissance, and Early Modern Studies. Because this journal seeks to provide a voice and publication opportunities for new scholars, only undergraduate work will be considered.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<!-- Submission Box -->
+				<div class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 text-center-xs well well-lg feature-box" id="submission-box">
+					<h3>Submission</h3>
+					<p>Submissions must concern a topic within Classics, Medieval and Renaissance, or Early Modern Studies. You may submit up to two manuscripts, but we will not accept more than one per person. All submissions must be formatted according to Chicago 16th Edition Documentary-Note Style (Footnotes).</p>
+					<p>Please visit our submission page for more details.</p>
+					<a href="submission.html"><button type="button" name="button" class="btn btn-md">Submit Now!</button></a>
+				</div>
+				<!-- Previous Issues Box -->
+				<div class="col-sm-4 col-xs-6 well well-lg feature-box" id="issues-box">
+					<h3 class="cinzel">Current & Past Issues</h3>
+					<p>Download previous issues of the <em>Anemoi</em>:</p>
+					<ul style="list-style: none;">
+						<li><a href="pdfs/Anemoi2013.pdf">2013 Edition</a></li>
+						<li><a href="pdfs/Anemoi2014.pdf">2014 Edition</a></li>
+						<li><a href="pdfs/Anemoi2015.pdf">2015 Edition</a></li>
+					</ul>
+				</div>
+				<!-- Twitter Widget -->
+				<div class="col-sm-4 col-xs-6 well well-lg" id="twitter-feed">
+					<a class="twitter-timeline" href="https://twitter.com/anemoi_journal">Tweets by Anemoi</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+		<div class="container" id="footer">
+			<div class="row">
+				<div class="col-sm-6 footer-text">
+					<h4>Follow Us</h4>
+				</div>
+				<div class="col-sm-6 footer-text" style="font-family: 'Cinzel', serif;">
+					<h4>Anemoi: Journal of Pre-Modern Studies</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<ul class="list-unstyled list-inline" style="text-align: center;">
+						<li>
+							<button type="button" class="btn btn-default btn-circle btn-lg contact-button">
+								<a href="https://www.facebook.com/profile.php?id=100005350680114">
+									<i class="fa fa-facebook-f contact-icon"></i>
+								</a>
+							</button>
+						</li>
+						<li>
+							<button type="button" class="btn btn-default btn-circle btn-lg contact-button">
+								<a href="https://twitter.com/anemoi_journal">
+									<i class="fa fa-twitter contact-icon"></i>
+								</a>
+							</button>
+						</li>
+						<li>
+							<button type="button" class="btn btn-default btn-circle btn-lg contact-button">
+								<a href="http://anemoiacademicjournal.tumblr.com/">
+									<i class="fa fa-tumblr contact-icon"></i>
+								</a>
+							</button>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-6">
+					<address style="text-align: center; color: white">
+						Email us at <a href="mailto:anemoijournal@gmail.com">anemoijournal@gmail.com</a> <br>
+						New College of Florida <br>
+						5800 Baysore Rd.
+						Sarasota, Florida 34342
+					</address>
+				</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
