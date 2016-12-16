@@ -1,0 +1,19 @@
+{
+  "name": "anemoijournal.github.com",
+  "version": "1.0.0",
+  "description": "Website for Anemoi Journal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnemoiJournal/anemoijournal.github.com.git"
+  },
+  "author": "Tyler Kirby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnemoiJournal/anemoijournal.github.com/issues"
+  },
+  "homepage": "https://github.com/AnemoiJournal/anemoijournal.github.com#readme"
+}
