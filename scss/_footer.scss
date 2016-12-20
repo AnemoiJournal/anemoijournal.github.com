@@ -1,13 +1,33 @@
+@import 'variables';
+
 .footer {
 
-  background-color: $footer-color;
-  color: $text-color;
+  background-color: $ncf-blue;
+  color: white;
+  text-align: center;
+  font-family: Georgia, serif;
+  background-clip: content-box;
+  padding-bottom: 10px;
 
-  .footer-features {
+
+  a {
+    color: white;
+  }
+
+  li {
     margin: 20px 0;
   }
 
-  .li {
-    margin: 20px 0;
+  .contact-button {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+
+    a {
+      color: $ncf-blue;
+    }
   }
 }
