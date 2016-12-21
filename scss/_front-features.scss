@@ -1,0 +1,48 @@
+@import 'variables';
+
+.front-features {
+  color: white;
+  height: 375px;
+  padding: 15px;
+  border: 10px solid transparent;
+  border-radius: 0 !important;
+}
+
+#title {
+  background-color: $ncf-dark-blue;
+  border: transparent;
+  border-radius: 0 !important;
+  font-family: Georgia, serif;
+}
+
+#submission-box {
+  background-color: $ncf-dark-blue;
+
+  h2 {
+    font-family: Georgia, serif;
+  }
+
+  p {
+    font-family: serif;
+  }
+}
+
+#issues-box {
+  background-color: $ncf-maroon;
+
+  h2 {
+    font-family: Georgia, serif;
+  }
+
+  p {
+    font-family: serif;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+#twitter-box {
+  background-color: $ncf-yellow;
+}

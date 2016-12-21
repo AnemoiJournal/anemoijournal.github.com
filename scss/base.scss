@@ -1,2 +1,13 @@
 @import 'footer';
 @import 'variables';
+@import 'navbar';
+@import 'front-features';
+
+body {
+  background-color: $ncf-light-blue;
+}
+
+a {
+  color: white;
+}
+

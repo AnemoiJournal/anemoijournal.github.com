@@ -1,33 +1,64 @@
-/*
-Error: Invalid CSS after "import 'footer'": expected "{", was ";"
-        on line 1 of scss/base.scss
+.footer {
+  background-color: #194f90;
+  color: white;
+  text-align: center;
+  font-family: Georgia, serif;
+  background-clip: content-box;
+  padding-bottom: 10px; }
+  .footer a {
+    color: white; }
+  .footer li {
+    margin: 20px 0; }
+  .footer .contact-button {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px; }
+    .footer .contact-button a {
+      color: #194f90; }
 
-1: import 'footer';
-2: import 'variables';
+.navbar {
+  background-color: #003399;
+  color: white; }
 
-Backtrace:
-scss/base.scss:1
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"import 'footer'\": expected \"{\", was \";\"\A         on line 1 of scss/base.scss\A \A 1: import 'footer';\A 2: import 'variables';"; }
+.front-features {
+  color: white;
+  height: 375px;
+  padding: 15px;
+  border: 10px solid transparent;
+  border-radius: 0 !important; }
+
+#title {
+  background-color: #003399;
+  border: transparent;
+  border: 0 !important;
+  font-family: Georgia, serif; }
+
+#submission-box {
+  background-color: #003399; }
+  #submission-box h2 {
+    font-family: Georgia, serif; }
+  #submission-box p {
+    font-family: serif; }
+
+#issues-box {
+  background-color: #7c2855; }
+  #issues-box h2 {
+    font-family: Georgia, serif; }
+  #issues-box p {
+    font-family: serif; }
+  #issues-box a {
+    color: white; }
+
+#twitter-box {
+  background-color: #fdbe4c; }
+
+body {
+  background-color: #597abd; }
+
+a {
+  color: white; }
+
+/*# sourceMappingURL=base.css.map */

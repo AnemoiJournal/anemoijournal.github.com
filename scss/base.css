@@ -19,4 +19,46 @@
     .footer .contact-button a {
       color: #194f90; }
 
+.navbar {
+  background-color: #003399;
+  color: white; }
+
+.front-features {
+  color: white;
+  height: 375px;
+  padding: 15px;
+  border: 10px solid transparent;
+  border-radius: 0 !important; }
+
+#title {
+  background-color: #003399;
+  border: transparent;
+  border-radius: 0 !important;
+  font-family: Georgia, serif; }
+
+#submission-box {
+  background-color: #003399; }
+  #submission-box h2 {
+    font-family: Georgia, serif; }
+  #submission-box p {
+    font-family: serif; }
+
+#issues-box {
+  background-color: #7c2855; }
+  #issues-box h2 {
+    font-family: Georgia, serif; }
+  #issues-box p {
+    font-family: serif; }
+  #issues-box a {
+    color: white; }
+
+#twitter-box {
+  background-color: #fdbe4c; }
+
+body {
+  background-color: #597abd; }
+
+a {
+  color: white; }
+
 /*# sourceMappingURL=base.css.map */
