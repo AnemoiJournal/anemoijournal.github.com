@@ -32,9 +32,11 @@
 
 #title {
   background-color: #003399;
+  color: white;
   border: transparent;
-  border: 0 !important;
-  font-family: Georgia, serif; }
+  border-radius: 0 !important;
+  font-family: Georgia, serif;
+  text-align: center; }
 
 #submission-box {
   background-color: #003399; }

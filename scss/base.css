@@ -32,10 +32,10 @@
 
 #title {
   background-color: #003399;
+  color: white;
   border: transparent;
   border-radius: 0 !important;
   font-family: Georgia, serif;
-  color: white;
   text-align: center; }
 
 #submission-box {
