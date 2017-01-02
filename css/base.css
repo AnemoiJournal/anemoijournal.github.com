@@ -63,4 +63,7 @@ body {
 a {
   color: white; }
 
+.dark-links a {
+  color: #003399; }
+
 /*# sourceMappingURL=base.css.map */
