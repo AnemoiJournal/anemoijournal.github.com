@@ -25,10 +25,10 @@
 
 .front-features {
   color: white;
-  height: 375px;
   padding: 15px;
   border: 10px solid transparent;
-  border-radius: 0 !important; }
+  border-radius: 0 !important;
+  height: 450px; }
 
 #title {
   background-color: #003399;
@@ -39,14 +39,16 @@
   text-align: center; }
 
 #submission-box {
-  background-color: #003399; }
+  background-color: #003399;
+  font-size: large; }
   #submission-box h2 {
     font-family: Georgia, serif; }
   #submission-box p {
     font-family: serif; }
 
 #issues-box {
-  background-color: #7c2855; }
+  background-color: #7c2855;
+  font-size: x-large; }
   #issues-box h2 {
     font-family: Georgia, serif; }
   #issues-box p {
