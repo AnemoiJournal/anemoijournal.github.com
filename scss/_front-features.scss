@@ -2,10 +2,10 @@
 
 .front-features {
   color: white;
-  height: 375px;
   padding: 15px;
   border: 10px solid transparent;
   border-radius: 0 !important;
+  height: 450px;
 }
 
 #title {
@@ -19,6 +19,7 @@
 
 #submission-box {
   background-color: $ncf-dark-blue;
+  font-size: large;
 
   h2 {
     font-family: Georgia, serif;
@@ -31,6 +32,7 @@
 
 #issues-box {
   background-color: $ncf-maroon;
+  font-size: x-large;
 
   h2 {
     font-family: Georgia, serif;
